@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel="stylesheet", href="https://www.w3schools.com/w3css/4/w3.css")
+
+    block head
+  body
+    div(class="row")
+      div(class="pageLeftMenu")
+        block leftmenu
+      div(class="center")
+        div(class="pageHeader")
+          block header
+        div(class="pageContent")
+          block content
+        div(class="upload")
+          block foot
+      div(class="pageRightMenu")
+        block rightmenu

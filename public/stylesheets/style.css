@@ -1,0 +1,101 @@
+body{
+  background-image: url("/images/background.jpg");
+  background-attachment : fixed;
+  background-size : 100% auto;
+}
+.blended_grid{
+
+}
+
+.title{
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.center {
+  display: inline-block;
+  width: 50%;
+}
+
+.pageLeftMenu{
+  color: white;
+  display: inline-block;
+  width: 25%;
+}
+
+.table {
+  display: block;
+  height: 100vh;
+  overflow-y: scroll;
+  width: 65%;
+}
+
+.pageHeader{
+  height : 10%;
+  color: white;
+  text-align: center;
+}
+
+.pageContent{
+  height: 80%;
+  text-align: center;
+  color: white;
+  padding-top: 15%;
+}
+
+.upload{
+  text-align: center;
+  color: white;
+  height: 9%;
+}
+
+.pageRightMenu{
+  display: inline-block;
+  text-align: left;
+  width: 25%;
+}
+
+#vannyImg {
+  padding-top: 30%;
+  padding-right: 25%;
+  width: 100%;
+}
+
+.mid {
+  padding-top: 15%;
+}
+
+#roll {
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+}
+
+
+.upload_file_container {
+  width: 100px;
+  height: 40px;
+  position: relative;
+}
+
+.upload_file_container input{
+  width:100px;
+  height:40px;
+  position:absolute;
+  left:0;
+  top:0;
+  cursor:pointer;
+}
+
+#span{
+  padding-left: 10px;
+  padding-right: 50px;
+}
+
+tr {
+  text-align: left;
+}

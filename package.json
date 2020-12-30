@@ -1,0 +1,22 @@
+{
+  "name": "raffle",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "csv-parser": "^3.0.0",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "formidable": "^1.2.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11",
+    "tmi.js": "^1.7.1",
+    "twitch": "^4.3.8",
+    "twitch-auth": "^4.3.8"
+  }
+}
